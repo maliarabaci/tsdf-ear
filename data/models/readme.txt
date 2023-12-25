@@ -1,0 +1,1 @@
+activity recognition models and weigh generator models (swm and dwm) should be copied in to this directory
