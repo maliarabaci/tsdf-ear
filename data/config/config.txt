@@ -1,0 +1,14 @@
+[common_params]
+# the resulting files will be stored into this folder 
+result_rootdir = /tsdf-ear/results/
+# the root directory that holds activity recognition models (ARNs), stream weighing models (SWMs), decision weighing models (DWMs) 
+model_rootdir = /tsdf-ear/data/models/
+# the root directory that holds the deep features for modalities
+feat_rootdir = /tsdf-ear/data/feats/
+
+[ar_common_params]
+# Preferred modality for ARN. Possible choices: "rgbflow", "rgbaudio", "flowaudio", "rgbflowaudio"
+modality = rgbflow
+
+[ar_attention_params]
+attention_mode = swm_dwm
